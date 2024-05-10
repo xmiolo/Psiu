@@ -1,0 +1,8 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑÎ ñúÿÿÿÿ8©„ºíõ1J$34d66810-3bae-49da-9145-a8632e7a9f11
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8­„ºíõ1J$ed3db2f0-8d5f-4f25-9de5-6932a77d727c
+ˆ
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(Ú“Ç¾üÿÿÿÿ8°„ºíõ1J$4fedb925-8a3e-4374-9d2f-2adedf6a2c7b
+|
+java:S1128	"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ËÍÕíõ1J$9e504665-6a07-438f-b1a9-e2c044700c54
