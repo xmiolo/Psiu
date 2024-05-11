@@ -1,6 +1,6 @@
-package br.com.psiu.conversationsApi.repository;
+package br.com.psiu.conversations.repository;
 
-import br.com.psiu.conversationsApi.model.Message;
+import br.com.psiu.conversations.model.Message;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 

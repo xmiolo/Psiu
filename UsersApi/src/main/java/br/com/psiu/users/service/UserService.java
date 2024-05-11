@@ -1,7 +1,7 @@
-package br.com.psiu.usersApi.service;
+package br.com.psiu.users.service;
 
-import br.com.psiu.usersApi.model.User;
-import br.com.psiu.usersApi.repository.UserRepository;
+import br.com.psiu.users.model.User;
+import br.com.psiu.users.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

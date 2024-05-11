@@ -1,10 +1,10 @@
-package br.com.psiu.usersApi;
+package br.com.psiu.conversations;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UsersApiApplicationTests {
+class ConversationsApiApplicationTests {
 
 	@Test
 	void contextLoads() {

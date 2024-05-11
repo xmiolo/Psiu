@@ -1,12 +1,10 @@
-package br.com.psiu.usersApi.controller;
+package br.com.psiu.users.controller;
 
-import br.com.psiu.usersApi.model.User;
-import br.com.psiu.usersApi.service.UserService;
+import br.com.psiu.users.model.User;
+import br.com.psiu.users.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.time.LocalDateTime;
 
 @RestController
 @RequestMapping("/api/users")

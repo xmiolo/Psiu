@@ -1,3 +1,4 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÎåıÿÿÿÿ8¿—ÎÊõ1J$effa8cb4-0cbb-4e64-8b00-50354403fc49
-~	java:S125"<This block of commented-out lines of code should be removed.(‹ Íò8âÍÇíõ1J$45a10a34-6bcb-4570-a7f5-57e3a5f00f22
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÎåıÿÿÿÿ8¿—ÎÊõ1J$a1143ab3-2f67-457b-a5e0-0b4dac7c066f
+t
+java:S1128"RRemove this unused import 'org.springframework.data.mongodb.core.mapping.MongoId'.(ı¸Ô‚şÿÿÿÿ8¿½ÁÄö1

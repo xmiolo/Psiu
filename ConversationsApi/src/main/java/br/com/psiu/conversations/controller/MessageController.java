@@ -1,7 +1,7 @@
-package br.com.psiu.conversationsApi.controller;
+package br.com.psiu.conversations.controller;
 
-import br.com.psiu.conversationsApi.model.Message;
-import br.com.psiu.conversationsApi.service.MessageService;
+import br.com.psiu.conversations.model.Message;
+import br.com.psiu.conversations.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +16,7 @@ public class MessageController {
     private MessageService messageService;
 
     @PostMapping
-    public ResponseEntity<?> sendMessage(@RequestBody Message message) {
+    public ResponseEntity<Message> sendMessage(@RequestBody Message message) {
         message.setTimestamp(LocalDateTime.now());
 
         messageService.sendMessage(message);
@@ -24,7 +24,7 @@ public class MessageController {
     }
 
     @GetMapping("/{userId1}/{userId2}")
-    public ResponseEntity<?> getChatHistory(
+    public ResponseEntity<List<Message>> getChatHistory(
             @PathVariable String userId1,
             @PathVariable String userId2) {
 

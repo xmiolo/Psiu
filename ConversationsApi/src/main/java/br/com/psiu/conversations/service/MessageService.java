@@ -1,7 +1,7 @@
-package br.com.psiu.conversationsApi.service;
+package br.com.psiu.conversations.service;
 
-import br.com.psiu.conversationsApi.model.Message;
-import br.com.psiu.conversationsApi.repository.MessageRepository;
+import br.com.psiu.conversations.model.Message;
+import br.com.psiu.conversations.repository.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

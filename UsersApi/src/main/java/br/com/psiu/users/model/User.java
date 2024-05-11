@@ -1,15 +1,15 @@
-package br.com.psiu.usersApi.model;
+package br.com.psiu.users.model;
 
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.MongoId;
 
 import java.time.LocalDateTime;
 
 @Data
 @Document("users")
 public class User {
-    @MongoId
+    @Id
     private Integer id;
     private String name;
     private String email;
@@ -18,7 +18,6 @@ public class User {
     private LocalDateTime updatedAt;
     private Boolean active;
 
-    ////userService.createUser(new User(1, "Gregori", "ggrbediN@gmail.com", "gregs", LocalDateTime.now(), LocalDateTime.now(), Boolean.TRUE));
     public User(Integer id, String name, String email, String userName, LocalDateTime createdAt, LocalDateTime updatedAt, Boolean active) {
         this.id = id;
         this.name = name;

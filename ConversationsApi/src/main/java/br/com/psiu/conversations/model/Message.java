@@ -1,4 +1,4 @@
-package br.com.psiu.conversationsApi.model;
+package br.com.psiu.conversations.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
