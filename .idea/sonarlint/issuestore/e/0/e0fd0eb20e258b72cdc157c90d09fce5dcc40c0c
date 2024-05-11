@@ -1,4 +1,10 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“Þë–þÿÿÿÿJ$3d6aaa81-50f6-4b60-9519-24ac1f235c42
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“Þë–þÿÿÿÿJ$d6a220e0-a7b4-418f-9bba-9a0869c5f26b
+„
+java:S1128"<Remove this unused import 'com.mongodb.client.FindIterable'.(½Ý˜¢üÿÿÿÿ8Õ±ØÃö1J$78566b40-368b-48c1-a400-3e3da33cd250
+›
+java:S1128"SRemove this unused import 'org.springframework.data.mongodb.core.mapping.Document'.(ú™ïÊúÿÿÿÿ8Õ±ØÃö1J$76afdecb-2a1e-4826-bb6c-6366f2e6f152
 –
-java:S1128"NRemove this unused import 'org.springframework.data.mongodb.repository.Query'.(Ç§ò•øÿÿÿÿ8·”œ¥ö1J$2fb9b745-99ba-4743-8c49-8193da7aada4
+java:S1128"NRemove this unused import 'org.springframework.data.mongodb.repository.Query'.(Ç§ò•øÿÿÿÿ8Õ±ØÃö1J$4d6185b0-d7bf-4523-b465-45524d21c174
+w
+java:S1128	"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ8Õ±ØÃö1J$57da10bd-c370-492c-b44e-b15c01b51839

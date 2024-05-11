@@ -1,4 +1,14 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ¬š¾ùÿÿÿÿ8Ÿ›ïõ1J$e27f43d9-d0ad-4e7e-85c0-9da5162e379b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ¬š¾ùÿÿÿÿ8äø±¿ö1J$9ae43af7-4299-4f61-9bf2-a40cedb75e9f
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¤›ïõ1J$3d3ed475-2d61-4548-b851-1684d8436d79
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8çø±¿ö1J$f2c5f5e2-9af8-4a7e-b5e9-b191ae75eef3
+ˆ
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(–¬Íúÿÿÿÿ8³ÖÀö1J$c1654d6f-35e0-454a-bf33-91b3ef2e34c5
+~	java:S125"<This block of commented-out lines of code should be removed.(©ä—Ë8¹£îÃö1J$3c2de78d-b111-41c3-ad9d-195cb837e30a
+ƒ	java:S125#"<This block of commented-out lines of code should be removed.(÷Şí»ıÿÿÿÿ8¹£îÃö1J$3f264d2c-f81c-4e63-8923-df8628abf746
+
+java:S1128"GRemove this unused import 'br.com.psiu.conversationsApi.model.Message'.(ôëÎèùÿÿÿÿ8¾¹¾Âö1J$0a1ce4d7-08fa-403c-907a-82f8045e9906
+ˆ
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8¹£îÃö1J$d6b6aa61-2b9a-4a94-a18f-fc765eab90e7
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8º£îÃö1J$6e242b97-087b-49c3-8f16-0322b19f2096

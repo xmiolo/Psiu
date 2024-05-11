@@ -1,17 +1,20 @@
 package br.com.psiu.conversationsApi.model;
 
 import lombok.Data;
-import org.springframework.data.mongodb.core.mapping.MongoId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
 
 @Data
+@Document(collection = "messages")
 public class Message {
-    //TODO verify if i need to pass conversationID here or if a will pass all conversation with only one message
-    @MongoId
+    @Id
     private String id;
     private String senderId;
-    private String text;
+    private String recipientId;
+    private String content;
     private LocalDateTime timestamp;
+    private String[] mediaUrls;
 
 }
