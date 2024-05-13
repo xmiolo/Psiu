@@ -1,13 +1,0 @@
-
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈÑÄ8´ß„¿ö1J$4f7df525-8be1-404f-ae68-ea9a6cc9b070
-]	java:S125"<This block of commented-out lines of code should be removed.(šÒŒØûÿÿÿÿ8Ö×öÁö1
-i
-java:S1128"GRemove this unused import 'br.com.psiu.conversationsApi.model.Message'.(ôëÎèùÿÿÿÿ8Ö×öÁö1
-N
-java:S1128"1Remove this unused import 'com.mongodb.DBObject'.(‡ÿå´8Ö×öÁö1
-s
-java:S1128"QRemove this unused import 'org.springframework.core.convert.converter.Converter'.(’µ´×ÿÿÿÿÿ8Ö×öÁö1
-k
-java:S1128"NRemove this unused import 'org.springframework.data.convert.ReadingConverter'.(“ıÉª8Ö×öÁö1
-V
-java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8Ö×öÁö1
